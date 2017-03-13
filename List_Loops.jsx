@@ -143,9 +143,9 @@ function Application(props) {
 
                 
                 {
-                    props.player.map(function () {
+                    props.player.map(function (player) {
                         return(
-                         <Player name="player.name" score="player.score"/>
+                         <Player name={player.name} score={player.score}/>
                         );
                     })
                 }
