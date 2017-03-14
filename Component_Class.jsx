@@ -10,7 +10,15 @@ var PLAYERS = [
     {
         name: "Richa Agarwal",
         score: 21,
-    }
+    },
+    {
+        name: "Kritika Goyal",
+        score: 38,
+    },
+    {
+        name: "Akshita Agarwal",
+        score: 55,
+    },
 ];
 
 
